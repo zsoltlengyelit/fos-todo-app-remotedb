@@ -1,77 +1,83 @@
 define(['backbone', 'views/Todos', 'views/ViewAdd', 'collections/todos'],
-function (Backbone, TodosView, ViewAdd, todos) {
-  var ViewTodos = Backbone.View.extend({
-    el: '#view-todos',
+    function (Backbone, TodosView, ViewAdd, todos) {
+        var ViewTodos = Backbone.View.extend({
+            el: '#view-todos',
 
-    events: {
-      //'tap footer .btn.del' : 'delTodos',
-      'click footer .btn.del' : 'delTodos',
+            events: {
+                //'tap footer .btn.del' : 'delTodos',
+                'click footer .btn.del': 'delTodos',
 
-      //'tap footer .btn.add' : 'showAddView'
-      'click footer .btn.add' : 'showAddView'
-    },
+                //'tap footer .btn.add' : 'showAddView'
+                'click footer .btn.add': 'showAddView',
 
-    showAddView: function () {
-      console.log('showAddView');
+                'click footer .btn.refresh': 'refresh'
+            },
 
-      this.viewAdd = new ViewAdd().render();
+            refresh: function () {
+                todos.fetch();
+            },
 
-      //Redefine showAddView
-      this.showAddView = function () {
-        this.viewAdd.render();
-      };
+            showAddView: function () {
+                console.log('showAddView');
 
-      //Remove existing events and reattach then
-      //using this.events hash
-      this.delegateEvents();
-    },
+                this.viewAdd = new ViewAdd().render();
 
-    delTodos: function () {
-      /**
-       * Other possible solution for following if condition is
-       * this.$('#todo-list input[type=checkbox]:checked').length
-       * But I didn't used it just to avoid DOM access
-       */
+                //Redefine showAddView
+                this.showAddView = function () {
+                    this.viewAdd.render();
+                };
 
-      if (todos.where({completed: true}).length) {
-        //function as Delete Completed
+                //Remove existing events and reattach then
+                //using this.events hash
+                this.delegateEvents();
+            },
 
-        if (confirm('Delete Completed Tasks?')) {
-          this.todosView.delCompleted();
-        }
-      } else {
-        if (confirm('Delete All Tasks?')) {
-          //function as Delete All
-          this.todosView.delAll();
-        }
-      }
+            delTodos: function () {
+                /**
+                 * Other possible solution for following if condition is
+                 * this.$('#todo-list input[type=checkbox]:checked').length
+                 * But I didn't used it just to avoid DOM access
+                 */
 
-      this.setBtnDelDisabled();
-    },
+                if (todos.where({completed: true}).length) {
+                    //function as Delete Completed
 
-    setBtnDelDisabled: function () {
-      if (todos.length) {
-        this.$btnDel.removeAttr('disabled');
-      } else {
-        this.$btnDel.attr('disabled', 'disabled');
-      }
-    },
+                    if (confirm('Delete Completed Tasks?')) {
+                        this.todosView.delCompleted();
+                    }
+                } else {
+                    if (confirm('Delete All Tasks?')) {
+                        //function as Delete All
+                        this.todosView.delAll();
+                    }
+                }
 
-    initialize: function () {
-      //init todo list
-      this.todosView = new TodosView().render();
+                this.setBtnDelDisabled();
+            },
 
-      this.listenTo(todos, 'add', this.setBtnDelDisabled);
-    },
+            setBtnDelDisabled: function () {
+                if (todos.length) {
+                    this.$btnDel.removeAttr('disabled');
+                } else {
+                    this.$btnDel.attr('disabled', 'disabled');
+                }
+            },
 
-    render: function () {
-      this.$('.view-content').append(this.todosView.el);
+            initialize: function () {
+                //init todo list
+                this.todosView = new TodosView().render();
 
-      this.$btnDel = this.$('footer .btn.del');
+                this.listenTo(todos, 'add', this.setBtnDelDisabled);
+            },
 
-      this.setBtnDelDisabled();
-    }
-  });
+            render: function () {
+                this.$('.view-content').append(this.todosView.el);
 
-  return ViewTodos;
-});
+                this.$btnDel = this.$('footer .btn.del');
+
+                this.setBtnDelDisabled();
+            }
+        });
+
+        return ViewTodos;
+    });

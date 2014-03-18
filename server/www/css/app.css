@@ -123,6 +123,9 @@ input[type=text], textarea, select {
 .btn.edit {
   background: url(../img/edit.svg) no-repeat center center;
 }
+.btn.refresh {
+    background: url(../img/refresh.svg) no-repeat center center;
+}
 .btn:hover {
   background-color: rgba(255,255,255,.1);
 }

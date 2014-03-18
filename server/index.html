@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manifest file</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+
+<p>
+    <a href="www/manifest.webapp">manifest.webapp</a>
+</p>
+
+<p>
+    <button id="install" type="button">
+        Install this awesome app on your homescreen!
+    </button>
+</p>
+
+<script>
+    (function () {
+        function install(ev) {
+            ev.preventDefault();
+
+            if(!navigator.mozApps){
+
+                alert('Please visit the site from FirefoxOS');
+                return;
+            }
+
+            // define the manifest URL
+            var manifest_url = "http://firefoxos.lengyelzsolt.com/fos-todo-app/www/manifest.webapp";
+            // install the app
+            var myapp = navigator.mozApps.install(manifest_url);
+            myapp.onsuccess = function (data) {
+
+                alert('Applicatiom has installed successfully');
+            };
+            myapp.onerror = function () {
+                // App wasn't installed, info is in this.error.name
+                alert('Install failed, error: ' + this.error.name);
+            };
+        };
+        // get a reference to the button and call install() on click
+        var button = document.getElementById('install');
+        button.addEventListener('click', install, false);
+    })();
+</script>
+
+</body>
+
+</html>

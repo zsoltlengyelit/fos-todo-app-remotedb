@@ -17,9 +17,9 @@ if (!$schema->tablesExist('todo')) {
     $todo = new \Doctrine\DBAL\Schema\Table('todo');
 
     $todo->addColumn('id', 'integer', array('unsigned' => true, 'autoincrement' => true));
-    $todo->setPrimaryKey(['id']);
+    $todo->setPrimaryKey(array('id'));
     $todo->addColumn('created_on', 'bigint');
-    $todo->addIndex(['created_on'], 'time_index');
+    $todo->addIndex(array('created_on'), 'time_index');
     $todo->addColumn('task', 'string');
     $todo->addColumn('completed', 'integer');
 
@@ -42,7 +42,7 @@ $app->put('/todo/{id}', function ($id, \Symfony\Component\HttpFoundation\Request
     $data = json_decode($request->getContent(), true);
 
     try {
-        $app['db']->update('todo', $data, ['id' => $id]);
+        $app['db']->update('todo', $data, array('id' => $id));
     } catch (Exception $exception) {
         return new \Symfony\Component\HttpFoundation\Response("FAIL: " . $exception->getMessage(), 400);
     }
@@ -53,7 +53,7 @@ $app->put('/todo/{id}', function ($id, \Symfony\Component\HttpFoundation\Request
 $app->delete('/todo/{id}', function ($id) use ($app) {
 
     try {
-        $app['db']->delete('todo', ['id' => (int)$id]);
+        $app['db']->delete('todo', array('id' => (int)$id));
     } catch (Exception $exception) {
         return new \Symfony\Component\HttpFoundation\Response("FAIL: " . $exception->getMessage(), 400);
     }

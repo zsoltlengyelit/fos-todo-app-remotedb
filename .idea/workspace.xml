@@ -2,12 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4646d6a6-7fc8-49e7-9412-b4135a795221" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/js/app/models/Todo.js" afterPath="$PROJECT_DIR$/server/www/js/app/models/Todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js" afterPath="$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/js/app.js" afterPath="$PROJECT_DIR$/server/www/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/api/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/www/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/www/img/refresh.svg" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\requirejs\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\requirejs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\requirejs\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\requirejs\require.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zepto\zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\MIT-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\anim.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\iphone\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\iphone\iphone.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\load_jquery_on_ie.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\snow\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\examples\touch_events.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\make" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\script\bootstrap" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\script\guard" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\script\test" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\assets.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\detect.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\form.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\fx.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\fx_methods.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\gesture.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\ie.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\ios3.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\stack.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\touch.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\src\zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\ajax_deferred.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\data.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\deferred.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\detect.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\event.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\evidence_runner.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\ajax_load_javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\ajax_load_selector.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\ajax_load_selector_javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\ajax_load_simple.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\iframe_document.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fixtures\zepto.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\form.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\functional\assets.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\functional\fx.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\functional\gesture.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\functional\touch.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\functional\touchcancel.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\fx.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\ios3.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\runner.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\selector.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\server.coffee" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\stack.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\test.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\touch.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\test\zepto.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\fos-todo-app-remotedb\server\www\js\vendor\zeptojs\vendor\evidence.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/js/app/views/ViewTodos.js" afterPath="$PROJECT_DIR$/server/www/js/app/views/ViewTodos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/css/app.css" afterPath="$PROJECT_DIR$/server/www/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/index.html" afterPath="$PROJECT_DIR$/server/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api/index.php" afterPath="$PROJECT_DIR$/server/api/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/manifest.webapp" afterPath="$PROJECT_DIR$/server/www/manifest.webapp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/www/js/app/collections/todos.js" afterPath="$PROJECT_DIR$/server/www/js/app/collections/todos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fos-todo-app-master.iws" />
@@ -31,19 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewAdd.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ViewAdd.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="25" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.33333334" vertical-offset="780" max-vertical-offset="1649">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Todos.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/www/js/app/views/Todos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="884">
+            <state line="57" column="25" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -52,7 +127,16 @@
       <file leaf-file-name="Todo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/www/js/app/views/Todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.0" vertical-offset="1337" max-vertical-offset="1904">
+            <state line="18" column="44" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Todos.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/www/js/app/views/Todos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -61,57 +145,25 @@
       <file leaf-file-name="ViewTodos.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/www/js/app/views/ViewTodos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1394">
+            <state line="16" column="30" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/api/index.php">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/www/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="29" selection-start="1418" selection-end="1418" vertical-scroll-proportion="-11.0" vertical-offset="547" max-vertical-offset="1411">
-              <folding>
-                <marker date="1395175282459" expanded="true" signature="886:929" placeholder="SELECT * FRO..todo..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.webapp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/www/manifest.webapp">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="41" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
+            <state line="122" column="11" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.5996473" vertical-offset="1734" max-vertical-offset="3859">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Todo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/www/js/app/models/Todo.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todos.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/www/js/app/collections/todos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="40" column="65" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-8.5" vertical-offset="459" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -145,12 +197,19 @@
         <option value="$PROJECT_DIR$/server/web/index.php" />
         <option value="$PROJECT_DIR$/server/www/js/app/db/TodosDB.js" />
         <option value="$PROJECT_DIR$/server/www/js/app/views/Todo.js" />
-        <option value="$PROJECT_DIR$/server/www/manifest.webapp" />
-        <option value="$PROJECT_DIR$/server/api/index.php" />
         <option value="$PROJECT_DIR$/server/www/js/app/models/Todo.js" />
         <option value="$PROJECT_DIR$/server/www/js/app.js" />
         <option value="$PROJECT_DIR$/server/www/js/app/collections/todos.js" />
         <option value="$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js" />
+        <option value="$PROJECT_DIR$/server/index.html" />
+        <option value="$PROJECT_DIR$/server/www/manifest.webapp" />
+        <option value="$PROJECT_DIR$/server/api/index.php" />
+        <option value="$PROJECT_DIR$/server/www/.htaccess" />
+        <option value="$PROJECT_DIR$/server/api/.htaccess" />
+        <option value="$PROJECT_DIR$/server/.htaccess" />
+        <option value="$PROJECT_DIR$/server/www/js/app/views/ViewTodos.js" />
+        <option value="$PROJECT_DIR$/server/www/index.html" />
+        <option value="$PROJECT_DIR$/server/www/css/app.css" />
       </list>
     </option>
   </component>
@@ -196,6 +255,218 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fos-todo-app-remotedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -210,6 +481,7 @@
       <recent name="D:\projects\fos-todo-app\server\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\fos-todo-app-remotedb\server\www\img" />
       <recent name="D:\projects\fos-todo-app\server" />
       <recent name="D:\projects\fos-todo-app\server\vendor" />
     </key>
@@ -262,13 +534,18 @@
       <created>1395101101081</created>
       <updated>1395101101081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Silex server adja, fogadja az adatokat">
+      <created>1395176716085</created>
+      <updated>1395176716085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="50" width="1393" height="1018" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40133038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -284,7 +561,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -306,7 +582,8 @@
     </option>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Manifest URLs has benn corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manifest URLs has benn corrected" />
+    <MESSAGE value="Silex server adja, fogadja az adatokat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Silex server adja, fogadja az adatokat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -344,7 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="41" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="646">
           <folding>
-            <marker date="1395175282459" expanded="true" signature="886:929" placeholder="SELECT * FRO..todo..." />
+            <marker date="1395178795538" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..todo..." />
           </folding>
         </state>
       </provider>
@@ -378,11 +655,6 @@
         <state line="73" column="33" selection-start="3467" selection-end="3467" vertical-scroll-proportion="2.4238281" vertical-offset="0" max-vertical-offset="10336" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="32" selection-end="32" vertical-scroll-proportion="0.033203125" vertical-offset="0" max-vertical-offset="512" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/volofile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577" />
@@ -413,16 +685,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/www/manifest.webapp">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="9" selection-start="2485" selection-end="2485" vertical-scroll-proportion="0.5378928" vertical-offset="1069" max-vertical-offset="3774">
@@ -430,18 +692,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/js/app/models/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="322" selection-end="322" vertical-scroll-proportion="0.38977072" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="461" selection-end="461" vertical-scroll-proportion="0.47971782" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="55" selection-end="55" vertical-scroll-proportion="0.09426987" vertical-offset="0" max-vertical-offset="541">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="137" selection-end="137" vertical-scroll-proportion="0.12569316" vertical-offset="0" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/manifest.webapp">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="331" selection-end="331" vertical-scroll-proportion="0.28228784" vertical-offset="0" max-vertical-offset="542">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="29" selection-start="1418" selection-end="1418" vertical-scroll-proportion="-11.0" vertical-offset="547" max-vertical-offset="1411">
+        <state line="55" column="58" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-2.6153846" vertical-offset="867" max-vertical-offset="1411">
           <folding>
-            <marker date="1395175282459" expanded="true" signature="886:929" placeholder="SELECT * FRO..todo..." />
+            <marker date="1395178795538" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..todo..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="57" selection-end="57" vertical-scroll-proportion="0.059964728" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="0.029982364" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/js/app/collections/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="180" selection-end="180" vertical-scroll-proportion="0.119929455" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="65" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-8.5" vertical-offset="459" max-vertical-offset="1394">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/www/js/app/views/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1904">
+        <state line="18" column="44" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="25" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
@@ -455,35 +797,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/www/js/app/views/ViewTodos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
+        <state line="16" column="30" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/www/js/app/models/Todo.js">
+    <entry file="file://$PROJECT_DIR$/server/www/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/www/js/app/collections/todos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/www/js/app/views/ViewAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="25" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.33333334" vertical-offset="780" max-vertical-offset="1649">
+        <state line="122" column="11" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.5996473" vertical-offset="1734" max-vertical-offset="3859">
           <folding />
         </state>
       </provider>
