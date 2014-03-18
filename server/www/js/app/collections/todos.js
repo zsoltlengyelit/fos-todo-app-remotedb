@@ -3,7 +3,7 @@ define(['backbone', 'models/Todo'],
         var Todos = Backbone.Collection.extend({
             model: Todo,
             comparator: function (m) {
-                return m.get('created_on').getTime();
+                return m.get('created_on');
             },
             url: '../api/index.php/todo',
             initialize: function () {

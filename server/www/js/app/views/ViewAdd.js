@@ -33,7 +33,7 @@ function (Backbone, TodosView, todos) {
       //if Done button is clicked or Enter key is pressed and
       //task must have length greater than 0
       if ((e.type === 'click' || e.keyCode === 13) && task.length) {
-        todos.create({task: task, created_on: new Date()});
+        todos.create({task: task, created_on: new Date().getTime()});
         this.cancel();
         return false;
       }

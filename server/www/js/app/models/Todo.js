@@ -4,7 +4,7 @@ function (Backbone) {
       defaults: {
         task: 'my task',
         completed: false,
-        created_on: new Date()
+        created_on: new Date().getTime()
       },
 
       validate: function (attrs) {

@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "name": "Todos",
-  "description": "Awesome todo app by iFadey",
+  "name": "Todos Client",
+  "description": "Sample Todo application",
   "launch_path": "/fos-todo-app/www/index.html",
   "icons": {
     "16": "/fos-todo-app/www/img/icons/app-icon-16.png",

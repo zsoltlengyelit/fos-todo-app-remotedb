@@ -14,8 +14,7 @@ requirejs.config({
     models: '../app/models',
     collections: '../app/collections',
     views: '../app/views',
-    templates: '../app/templates',
-    db: '../app/db',
+    templates: '../app/templates'
   }
 });
 
