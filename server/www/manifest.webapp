@@ -2,19 +2,19 @@
   "version": "0.1",
   "name": "Todos",
   "description": "Awesome todo app by iFadey",
-  "launch_path": "/index.html",
+  "launch_path": "/fos-todo-app/www/index.html",
   "icons": {
-    "16": "/img/icons/app-icon-16.png",
-    "32": "/img/icons/app-icon-32.png",
-    "48": "/img/icons/app-icon-48.png",
-    "60": "/img/icons/app-icon-60.png",
-    "64": "/img/icons/app-icon-64.png",
-    "90": "/img/icons/app-icon-90.png",
-    "128": "/img/icons/app-icon-128.png"
+    "16": "/fos-todo-app/www/img/icons/app-icon-16.png",
+    "32": "/fos-todo-app/www/img/icons/app-icon-32.png",
+    "48": "/fos-todo-app/www/img/icons/app-icon-48.png",
+    "60": "/fos-todo-app/www/img/icons/app-icon-60.png",
+    "64": "/fos-todo-app/www/img/icons/app-icon-64.png",
+    "90": "/fos-todo-app/www/img/icons/app-icon-90.png",
+    "128": "/fos-todo-app/www/img/icons/app-icon-128.png"
   },
   "developer": {
-    "name": "Fawad Hassan",
-    "url": "http://ifadey.com"
+    "name": "Zsolt Lengyel",
+    "url": "http://lengyelzsolt.com"
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
